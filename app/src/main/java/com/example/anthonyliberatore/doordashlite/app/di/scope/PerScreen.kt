@@ -1,0 +1,8 @@
+package com.example.anthonyliberatore.doordashlite.app.di.scope
+
+import javax.inject.Scope
+import kotlin.annotation.AnnotationRetention.RUNTIME
+
+@Scope
+@Retention(RUNTIME)
+annotation class PerScreen
